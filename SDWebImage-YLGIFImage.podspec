@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SDWebImage-YLGIFImage"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Make SDWebImage support decoding GIF image using YLGIFImage."
   s.homepage     = "https://github.com/liyong03/SDWebImage-YLGIFImage.git"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
