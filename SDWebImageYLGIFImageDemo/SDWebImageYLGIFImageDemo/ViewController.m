@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YLImageView+WebCache.h"
+#import <SDWebImageManager.h>
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [SDWebImageManager setIsDecodeGIFImage:NO];
     
     YLImageView* imgView = [[YLImageView alloc] initWithFrame:CGRectMake(0, 100, 320, 240)];
     [self.view addSubview:imgView];
@@ -26,7 +28,11 @@
                     progress:^(NSInteger receivedSize, NSInteger expectedSize) {
                         NSLog(@"p = %f", (float)receivedSize/(float)expectedSize );
                     } completed:^(UIImage *image, NSData *data, NSError *error, SDImageCacheType cacheType) {
-                        
+                        if (error) {
+                            NSLog(@"ERROR: %@", error);
+                        } else {
+                            
+                        }
                     }];
 }
 
