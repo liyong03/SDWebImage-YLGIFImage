@@ -25,6 +25,7 @@
 		4EF901451923ACD00082348F /* YLImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF901441923ACD00082348F /* YLImageView+WebCache.m */; };
 		4EF901461923ACD00082348F /* YLImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF901441923ACD00082348F /* YLImageView+WebCache.m */; };
 		6F9C17AB31F44D238FB4CA53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B5AC8C9434840965542C6 /* libPods.a */; };
+		DF0BC80F19C7CF400065B452 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0BC80E19C7CF400065B452 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		4EF901431923ACD00082348F /* YLImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YLImageView+WebCache.h"; sourceTree = "<group>"; };
 		4EF901441923ACD00082348F /* YLImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLImageView+WebCache.m"; sourceTree = "<group>"; };
 		722485FA57E64674856445BF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DF0BC80E19C7CF400065B452 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				4E9A61741923A9D700BC384A /* ViewController.m */,
 				4E9A61761923A9D700BC384A /* Images.xcassets */,
 				4E9A61621923A9D700BC384A /* Supporting Files */,
+				DF0BC80E19C7CF400065B452 /* Launch Screen.xib */,
 			);
 			path = SDWebImageYLGIFImageDemo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				4E9A61771923A9D700BC384A /* Images.xcassets in Resources */,
 				4E9A616F1923A9D700BC384A /* Main_iPhone.storyboard in Resources */,
 				4E9A61661923A9D700BC384A /* InfoPlist.strings in Resources */,
+				DF0BC80F19C7CF400065B452 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +458,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDWebImageYLGIFImageDemo/SDWebImageYLGIFImageDemo-Prefix.pch";
 				INFOPLIST_FILE = "SDWebImageYLGIFImageDemo/SDWebImageYLGIFImageDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -469,7 +473,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDWebImageYLGIFImageDemo/SDWebImageYLGIFImageDemo-Prefix.pch";
 				INFOPLIST_FILE = "SDWebImageYLGIFImageDemo/SDWebImageYLGIFImageDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
